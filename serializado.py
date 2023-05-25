@@ -1,6 +1,6 @@
 import pickle
 
-#Creación de archivo serializado
+# Creación de archivo serializado
 # lista1 = input('ingrese el nombre del archivo:')
 
 # palabra = input('ingrese la palabra que va a guardar en el archivo:')
@@ -14,10 +14,3 @@ import pickle
 
 
 
-archivo = input('Por favor ingrese el nombre del archivo que quiere leer:')
-
-miarchivo = open (archivos+'.txt','rb')
-lista  = pickle.load(miarchivo)
-miarchivo.close()
-
-print(lista)
